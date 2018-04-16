@@ -1,13 +1,12 @@
 # editpycast
 Automatic podcast audio editing in Python
 
-Copy the config.example.yaml file and read the example carefully.
-
 ## Disclaimer
 This setup is optimized for those who record multi track talk podcasts with mumble, or what ever software you might use that creates one .wav file for each member.
 
 ## Getting started
 1. Run `pip install -r requirements.txt` or how ever you usually do such things.
+2. Copy `config.example.yaml` to `config.yaml` and read the example carefully when making your changes.
 
 ## Process (cron is a good idea)
 1. Put your wav(!) files in a folder.
