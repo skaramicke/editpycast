@@ -1,0 +1,5 @@
+/config.yaml
+/.idea
+/venv
+/*.iml
+__pycache__

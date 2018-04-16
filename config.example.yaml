@@ -1,0 +1,12 @@
+podcasts:
+  mypodast: # The MP3 will get this name
+    input: 'podcast' # Directory to look for recordings. Needs to be a subdirectory of 'podcasts'
+    output: 'episodes' # Directory to store MP3 files
+    completed: 'completed' # Optional. Session files end up here after. If omitted, they get deleted!!
+    intro: # List of wave files to put at the beginning. Files go in 'jingles' directory.
+      - 'boom-swoohs.wav'
+      - 'intro-talk.wav'
+      - 'swoop-ding.wav'
+    outro: # List of wave files to put at the end. Files go in 'jingles' directory.
+      - 'outro-music.wav'
+    spread: 0.2 # Recordings are spread over the stereo spectra by this factor. Experimental.
