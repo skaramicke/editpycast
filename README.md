@@ -2,7 +2,9 @@
 Automatic podcast audio editing in Python
 
 ## Disclaimer
-This setup is optimized for those who record multi track talk podcasts with mumble, or what ever software you might use that creates one .wav file for each member.
+This setup is optimized for those who record multi track talk podcasts with mumble, or what ever software you might use that creates one .wav file for each member, and where all files are synchronized from start.
+
+If some or all members disconnet at all, it's better to set spread to 0, so they don't get different balance in different parts of the episode.
 
 ## Getting started
 1. Run `pip install -r requirements.txt` or how ever you usually do such things.
